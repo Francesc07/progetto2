@@ -1,4 +1,4 @@
-//modifica 1 in remoto
+//modifica 2
 import java.util.*;
 
 /**
@@ -231,7 +231,7 @@ public class Treno {
 
 	@Override
 	public String toString() {
-		String s = "Modello: " + this.modello + "\nVelocit‡ massima: " + this.velocitaMassima + "\nNumero di vagoni: "
+		String s = "Modello: " + this.modello + "\nVelocit√† massima: " + this.velocitaMassima + "\nNumero di vagoni: "
 				+ this.numVagoni + "\nVagoni:\n";
 		for (int i = 0; i < this.numVagoni; i++)
 			s += (i+1)+") "+vagoni[i].toString() + "\n";
